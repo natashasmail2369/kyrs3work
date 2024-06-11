@@ -6,7 +6,7 @@ def load_operations():
     """
     Загружает список из выполненных операций
     """
-    with open('operations.json', 'r', encoding='utf') as file:
+    with open('../operations.json', 'r', encoding='utf') as file:
         read_file = file.read()
         loaded_operations = json.loads(read_file)
 
